@@ -2,21 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
 }
 
 body{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
 header{
     text-align: center;
+    font-family: 'Fredoka One', cursive;
 }
 
 h1{
     margin-top: 50px;
     margin-bottom: 70px;
     font-size: 3rem;
+    color: #E74371;
 }
+
+header p{
+    margin-bottom: 40px;
+}
+
+.clearfix::after{
+    clear:both;
+    content:'';
+    display:table;
+}
+
+.persona{
+    float: left;
+    width: calc((100%/3) - 40px);
+    margin: 0 20px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.photo{
+    float: left;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.dati{
+    box-shadow: 5px 10px 18px black;
+    color: white;
+    line-height: 25px;
+}
+
+h2{
+    padding-top: 10px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.emails{
+    color: blue;
+}
+
+
+
 
