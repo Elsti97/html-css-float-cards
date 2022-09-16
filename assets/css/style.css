@@ -31,7 +31,7 @@ header p{
     display:table;
 }
 
-.persona{
+.col{
     float: left;
     width: calc((100%/3) - 40px);
     margin: 0 20px;
@@ -45,7 +45,7 @@ header p{
     padding-right: 10px;
 }
 
-.dati{
+.cards{
     box-shadow: 5px 10px 18px black;
     color: white;
     line-height: 25px;
